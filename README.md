@@ -4,7 +4,7 @@
 
 # Reasoning
 
-Every Javascript implementation of ChaCha20 I came across was either poorly written or outdated. I decide to bundle it up together into modern Javascript. I used some code from [thesimj](https://github.com/thesimj/js-chacha20) and [devi](https://github.com/devi/chacha20poly1305).
+Every Javascript implementation of ChaCha20 I came across was either poorly written or outdated. I decided to bundle it up together into modern Javascript. I used some code from [thesimj](https://github.com/thesimj/js-chacha20) and [devi](https://github.com/devi/chacha20poly1305).
 
 # Usage
 
