@@ -8,19 +8,7 @@ Every Javascript implementation of ChaCha20 I came across was either poorly writ
 
 # Usage
 
-```js
-// Any of these can be string or Uint8Array
-const data = 'Your data';
-const key = 'Your key';
-const nonce = 'Your nonce';
-
-const counter = 0; // 0 by default
-
-const encrypted = ChaCha.encrypt(data, key, nonce, counter);
-const decrypted = ChaCha.decrypt(encrypted, key, nonce, counter) // > My data
-```
-
-Want tests? See [tests](https://github.com/seirdotexe/chacha20/tree/main/test).
+See [tests](https://github.com/seirdotexe/chacha20/tree/main/test).
 
 # Copyright and licensing
 
