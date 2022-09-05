@@ -9,8 +9,15 @@ Every Javascript implementation of ChaCha20 I came across was either poorly writ
 # Usage
 
 ```js
-const encrypted = ChaCha.encrypt('My data', 'My key', 'My nonce', 0);
-const decrypted = ChaCha.decrypt(encrypted, 'My key', 'My nonce', 0) // > My data
+// Any of these can be string or Uint8Array
+const data = 'Your data';
+const key = 'Your key';
+const nonce = 'Your nonce';
+
+const counter = 0; // 0 by default
+
+const encrypted = ChaCha.encrypt(data, key, nonce, counter);
+const decrypted = ChaCha.decrypt(encrypted, key, nonce, counter) // > My data
 ```
 
 Want tests? See [tests](https://github.com/seirdotexe/chacha20/tree/main/test).
